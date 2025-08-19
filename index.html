@@ -1,272 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Amoud PDF Library • 5 Majors</title>
-  <link rel="stylesheet" href="index.css"/>
+    <meta charset="UTF-8">
+    <meta name="Karim's library" content="width=device-width, initial-scale=1.0">
+    <title>Free Online Courses Portal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f7f6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        nav {
+            background-color: #34495e;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 15px;
+            width: 250px;
+            text-align: center;
+            overflow: hidden;
+        }
+        .card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+        .card h3 {
+            margin: 15px 0;
+            font-size: 1.2em;
+        }
+        .card p {
+            padding: 0 15px 15px;
+            font-size: 0.9em;
+            color: #555;
+        }
+        .card a {
+            display: block;
+            background-color: #2980b9;
+            color: white;
+            padding: 10px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 0 0 8px 8px;
+        }
+        .card a:hover {
+            background-color: #3498db;
+        }
+    </style>
 </head>
 <body>
-  <!-- ========== HEADER ========== -->
-  <header class="site-header">
-    <div class="brand">
-      <h1>📚 Amoud PDF Library</h1>
-      <p>Fast access to Lessons, Quizzes, Exams, and Book PDFs</p>
-    </div>
-    <nav class="top-nav">
-      <a href="#cs">Computer Science</a>
-      <a href="#medicine">Medicine</a>
-      <a href="#engineering">Engineering</a>
-      <a href="#business">Business</a>
-      <a href="#education">Education</a>
-    </nav>
-  </header>
 
-  <!-- ========== HERO ========== -->
-  <section class="hero">
-    <div class="hero-inner">
-      <h2>Welcome to your study hub</h2>
-      <p>Browse by major. Each major contains Lessons, Quizzes, Exams, and Books.</p>
-      <a class="cta" href="#cs">Start with Computer Science</a>
-    </div>
-  </section>
+<header>
+    <h1>Free Online Courses Portal</h1>
+    <p>Explore top-rated courses across various fields</p>
+</header>
 
-  <main class="container">
+<nav>
+    <a href="#cs">Computer Science</a>
+    <a href="#medicine">Medicine</a>
+    <a href="#engineering">Engineering</a>
+    <a href="#business">Business</a>
+</nav>
 
-    <!-- ========== COMPUTER SCIENCE ========== -->
-    <section id="cs" class="major">
-      <h2 class="major-title"><span class="float-emoji">💻</span> Computer Science</h2>
+<div class="container">
 
-      <div class="category">
-        <h3><span class="float-emoji">📖</span> Lessons</h3>
-        <div class="grid-links">
-          <a target="_blank" href="#">Intro to Programming (PDF)</a>
-          <a target="_blank" href="#">Data Structures Overview (PDF)</a>
-          <a target="_blank" href="#">Algorithms Basics (PDF)</a>
-          <a target="_blank" href="#">Computer Architecture Notes (PDF)</a>
-          <a target="_blank" href="#">Operating Systems Summary (PDF)</a>
-          <a target="_blank" href="#">Databases Quick Guide (PDF)</a>
-          <a target="_blank" href="#">Networks Essentials (PDF)</a>
+    <!-- Computer Science Section -->
+    <section id="cs">
+        <h2>Computer Science</h2>
+        <div class="card">
+            <img src="https://via.placeholder.com/250x150" alt="CS50">
+            <h3>CS50: Introduction to Computer Science</h3>
+            <p>An entry-level course taught by Harvard University, covering the basics of computer science and programming.</p>
+            <a href="https://pll.harvard.edu/course/cs50-introduction-computer-science">Start Learning</a>
         </div>
-      </div>
-
-      <div class="category">
-        <h3><span class="float-emoji">📝</span> Quizzes</h3>
-        <div class="grid-links">
-          <a target="_blank" href="#">Quiz 1 — Programming</a>
-          <a target="_blank" href="#">Quiz 2 — Data Structures</a>
-          <a target="_blank" href="#">Quiz 3 — Algorithms</a>
-          <a target="_blank" href="#">Quiz 4 — Databases</a>
+        <div class="card">
+            <img src="https://via.placeholder.com/250x150" alt="Coursera CS">
+            <h3>Coursera: Computer Science Courses</h3>
+            <p>Access a wide range of computer science courses from top universities and institutions.</p>
+            <a href="https://www.coursera.org/browse/computer-science">Browse Courses</a>
         </div>
-      </div>
-
-      <div class="category">
-        <h3><span class="float-emoji">📑</span> Exams</h3>
-        <div class="grid-links">
-          <a target="_blank" href="#">Midterm — Programming</a>
-          <a target="_blank" href="#">Final — Programming</a>
-          <a target="_blank" href="#">Midterm — Data Structures</a>
-        </div>
-      </div>
-
-      <div class="category">
-        <h3><span class="float-emoji">📕</span> Book PDFs</h3>
-        <div class="grid-links">
-          <a target="_blank" href="#">CS Textbook 1 (PDF)</a>
-          <a target="_blank" href="#">CS Textbook 2 (PDF)</a>
-          <a target="_blank" href="#">CS Textbook 3 (PDF)</a>
-        </div>
-      </div>
     </section>
 
-    <!-- ========== MEDICINE ========== -->
-    <section id="medicine" class="major">
-      <h2 class="major-title"><span class="float-emoji">🩺</span> Medicine</h2>
-
-      <div class="category">
-        <h3><span class="float-emoji">📖</span> Lessons</h3>
-        <div class="grid-links">
-          <a target="_blank" href="#">Human Anatomy Overview (PDF)</a>
-          <a target="_blank" href="#">Physiology Lecture Notes (PDF)</a>
-          <a target="_blank" href="#">Biochemistry Basics (PDF)</a>
-          <a target="_blank" href="#">Pathology Essentials (PDF)</a>
-          <a target="_blank" href="#">Pharmacology Summary (PDF)</a>
-          <a target="_blank" href="#">Microbiology Notes (PDF)</a>
-          <a target="_blank" href="#">Epidemiology Introduction (PDF)</a>
+    <!-- Medicine Section -->
+    <section id="medicine">
+        <h2>Medicine</h2>
+        <div class="card">
+            <img src="https://via.placeholder.com/250x150" alt="Harvard Medicine">
+            <h3>Harvard Medical School: Health & Medicine</h3>
+            <p>Explore courses on various medical topics, including nutrition, mental health, and more.</p>
+            <a href="https://pll.harvard.edu/subject/health-medicine">Explore Courses</a>
         </div>
-      </div>
-
-      <div class="category">
-        <h3><span class="float-emoji">📝</span> Quizzes</h3>
-        <div class="grid-links">
-          <a target="_blank" href="#">Anatomy Quiz</a>
-          <a target="_blank" href="#">Physiology Quiz</a>
-          <a target="_blank" href="#">Biochemistry Quiz</a>
+        <div class="card">
+            <img src="https://via.placeholder.com/250x150" alt="Coursera Medicine">
+            <h3>Coursera: Medical Courses</h3>
+            <p>Learn about human health, clinical practices, and healthcare systems from top universities.</p>
+            <a href="https://www.coursera.org/courses?query=medical">Browse Medical Courses</a>
         </div>
-      </div>
-
-      <div class="category">
-        <h3><span class="float-emoji">📑</span> Exams</h3>
-        <div class="grid-links">
-          <a target="_blank" href="#">Anatomy Midterm</a>
-          <a target="_blank" href="#">Physiology Final</a>
-          <a target="_blank" href="#">Pharmacology Midterm</a>
-        </div>
-      </div>
-
-      <div class="category">
-        <h3><span class="float-emoji">📕</span> Book PDFs</h3>
-        <div class="grid-links">
-          <a target="_blank" href="#">A&P Textbook (PDF)</a>
-          <a target="_blank" href="#">Medical Microbiology (PDF)</a>
-          <a target="_blank" href="#">Nutrition & Health (PDF)</a>
-        </div>
-      </div>
     </section>
 
-    <!-- ========== ENGINEERING ========== -->
-    <section id="engineering" class="major">
-      <h2 class="major-title"><span class="float-emoji">⚙</span> Engineering</h2>
-
-      <div class="category">
-        <h3><span class="float-emoji">📖</span> Lessons</h3>
-        <div class="grid-links">
-          <!-- Your real links included below -->
-          <a target="_blank" href="https://1drv.ms/b/c/33207fc4713ab0d3/EY8ZmWkjIuJHi-4v6HyG8jUB4i6gcuk9-zH3eSgCa-KMMQ">General Physics (PDF)</a>
-          <a target="_blank" href="#">Statics Notes (PDF)</a>
-          <a target="_blank" href="#">Dynamics Summary (PDF)</a>
-          <a target="_blank" href="#">Materials Science Basics (PDF)</a>
-          <a target="_blank" href="#">Thermodynamics Outline (PDF)</a>
-          <a target="_blank" href="#">Circuits Introduction (PDF)</a>
-          <a target="_blank" href="#">Fluid Mechanics Notes (PDF)</a>
+    <!-- Engineering Section -->
+    <section id="engineering">
+        <h2>Engineering</h2>
+        <div class="card">
+            <img src="https://via.placeholder.com/250x150" alt="edX Engineering">
+            <h3>edX: Engineering Courses</h3>
+            <p>Access free engineering courses from institutions like MIT, Harvard, and more.</p>
+            <a href="https://www.edx.org/learn/engineering">Start Learning</a>
         </div>
-      </div>
-
-      <div class="category">
-        <h3><span class="float-emoji">📝</span> Quizzes</h3>
-        <div class="grid-links">
-          <a target="_blank" href="#">Statics Quiz</a>
-          <a target="_blank" href="#">Dynamics Quiz</a>
-          <a target="_blank" href="#">Thermo Quiz</a>
+        <div class="card">
+            <img src="https://via.placeholder.com/250x150" alt="Coursera Engineering">
+            <h3>Coursera: Engineering Courses</h3>
+            <p>Explore a variety of engineering courses covering different disciplines and levels.</p>
+            <a href="https://www.coursera.org/browse/engineering">Browse Engineering Courses</a>
         </div>
-      </div>
-
-      <div class="category">
-        <h3><span class="float-emoji">📑</span> Exams</h3>
-        <div class="grid-links">
-          <a target="_blank" href="#">Mechanics Midterm</a>
-          <a target="_blank" href="#">Circuits Final</a>
-          <a target="_blank" href="#">Materials Midterm</a>
-        </div>
-      </div>
-
-      <div class="category">
-        <h3><span class="float-emoji">📕</span> Book PDFs</h3>
-        <div class="grid-links">
-          <a target="_blank" href="#">Intro to Engineering Text (PDF)</a>
-          <a target="_blank" href="#">Electrical Eng. Text (PDF)</a>
-          <a target="_blank" href="#">Mechanical Eng. Text (PDF)</a>
-        </div>
-      </div>
     </section>
 
-    <!-- ========== BUSINESS ========== -->
-    <section id="business" class="major">
-      <h2 class="major-title"><span class="float-emoji">📊</span> Business</h2>
-
-      <div class="category">
-        <h3><span class="float-emoji">📖</span> Lessons</h3>
-        <div class="grid-links">
-          <a target="_blank" href="#">Principles of Marketing (PDF)</a>
-          <a target="_blank" href="#">Accounting Fundamentals (PDF)</a>
-          <a target="_blank" href="#">Business Ethics Notes (PDF)</a>
-          <a target="_blank" href="#">Financial Management Intro (PDF)</a>
-          <a target="_blank" href="#">Organizational Behavior (PDF)</a>
-          <a target="_blank" href="#">Entrepreneurship Basics (PDF)</a>
-          <!-- Your real statistics link placed here -->
-          <a target="_blank" href="https://1drv.ms/p/c/33207fc4713ab0d3/ETiMjSCTEmpBovqWjBoV2kwBUq_znvg6IsxgGlqARtgG2g">Statistics (PDF)</a>
+    <!-- Business Section -->
+    <section id="business">
+        <h2>Business</h2>
+        <div class="card">
+            <img src="https://via.placeholder.com/250x150" alt="Harvard Business">
+            <h3>Harvard Business School: Free Courses</h3>
+            <p>Learn about business strategy, leadership, and entrepreneurship from Harvard Business School.</p>
+            <a href="https://pll.harvard.edu/subject/business/free">Explore Business Courses</a>
         </div>
-      </div>
-
-      <div class="category">
-        <h3><span class="float-emoji">📝</span> Quizzes</h3>
-        <div class="grid-links">
-          <a target="_blank" href="#">Marketing Quiz</a>
-          <a target="_blank" href="#">Accounting Quiz</a>
-          <a target="_blank" href="#">Finance Quiz</a>
+        <div class="card">
+            <img src="https://via.placeholder.com/250x150" alt="Coursera Business">
+            <h3>Coursera: Business Courses</h3>
+            <p>Access a wide range of business courses from top universities and institutions.</p>
+            <a href="https://www.coursera.org/browse/business">Browse Business Courses</a>
         </div>
-      </div>
-
-      <div class="category">
-        <h3><span class="float-emoji">📑</span> Exams</h3>
-        <div class="grid-links">
-          <a target="_blank" href="#">Marketing Midterm</a>
-          <a target="_blank" href="#">Accounting Final</a>
-          <a target="_blank" href="#">OB Midterm</a>
-        </div>
-      </div>
-
-      <div class="category">
-        <h3><span class="float-emoji">📕</span> Book PDFs</h3>
-        <div class="grid-links">
-          <a target="_blank" href="#">Principles of Management (PDF)</a>
-          <a target="_blank" href="#">Intro to Business (PDF)</a>
-          <a target="_blank" href="#">Business Communication (PDF)</a>
-        </div>
-      </div>
     </section>
 
-    <!-- ========== EDUCATION ========== -->
-    <section id="education" class="major">
-      <h2 class="major-title"><span class="float-emoji">📖</span> Education</h2>
+</div>
 
-      <div class="category">
-        <h3><span class="float-emoji">📖</span> Lessons</h3>
-        <div class="grid-links">
-          <!-- Your real link included -->
-          <a target="_blank" href="https://1drv.ms/b/c/33207fc4713ab0d3/EQEE-lYs7p5KoFKRXwu635MB0PyVk9B0Uz7h9tOw9TzYQw">Tarbia Answers (PDF)</a>
-          <a target="_blank" href="#">Learning Theories Overview (PDF)</a>
-          <a target="_blank" href="#">Curriculum Design Basics (PDF)</a>
-          <a target="_blank" href="#">Assessment Strategies (PDF)</a>
-          <a target="_blank" href="#">Classroom Management Notes (PDF)</a>
-          <a target="_blank" href="#">Educational Psychology Intro (PDF)</a>
-          <a target="_blank" href="#">Instructional Design Guide (PDF)</a>
-        </div>
-      </div>
-
-      <div class="category">
-        <h3><span class="float-emoji">📝</span> Quizzes</h3>
-        <div class="grid-links">
-          <a target="_blank" href="#">Learning Theories Quiz</a>
-          <a target="_blank" href="#">Assessment Quiz</a>
-          <a target="_blank" href="#">Ed Psych Quiz</a>
-        </div>
-      </div>
-
-      <div class="category">
-        <h3><span class="float-emoji">📑</span> Exams</h3>
-        <div class="grid-links">
-          <a target="_blank" href="#">Foundations of Education Midterm</a>
-          <a target="_blank" href="#">Curriculum Final</a>
-          <a target="_blank" href="#">Classroom Management Midterm</a>
-        </div>
-      </div>
-
-      <div class="category">
-        <h3><span class="float-emoji">📕</span> Book PDFs</h3>
-        <div class="grid-links">
-          <a target="_blank" href="#">Foundations of Education (PDF)</a>
-          <a target="_blank" href="#">Instructional Methods (PDF)</a>
-          <a target="_blank" href="#">Assessment & Evaluation (PDF)</a>
-        </div>
-      </div>
-    </section>
-
-  </main>
-
-  <!-- ========== FOOTER ========== -->
-  <footer class="site-footer">
-    <p>&copy; 2025 Amoud PDF Library • Built for Students</p>
-  </footer>
 </body>
 </html>
